@@ -1,14 +1,18 @@
-import "./globals.css";
 import type { Metadata } from "next";
-import SiteHeader from "@/components/SiteHeader";
-import SiteFooter from "@/components/SiteFooter";
+import "./globals.css";
+import SiteHeader from "../components/SiteHeader";
+import SiteFooter from "../components/SiteFooter";
 
 export const metadata: Metadata = {
-  title: "Kurs Info",
-  description: "Сайт покупки онлайн-курса",
+  title: "Kurs Info | Командный проект",
+  description: "Сайт с курсами от команды",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="ru">
       <body>
