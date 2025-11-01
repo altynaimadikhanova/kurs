@@ -15,7 +15,7 @@ export const courses: Course[] = [
     id: "kurs-info",
     title: "Kurs Info — Веб-негіздері",
     subtitle: "HTML, CSS, және базовый JS с нуля",
-    priceKZT: 49000,
+    priceKZT: 50000,
     duration: "1 айлық курс • 8 сабақ",
     image: "/course.svg",
     description:
